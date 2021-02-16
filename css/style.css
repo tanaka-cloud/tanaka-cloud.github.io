@@ -1,0 +1,90 @@
+body{
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header{
+  text-align: right;
+  background-image: url(../img/longcat.jpg);
+  height: 240;
+  background-size:contain;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+header ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+header li{
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+header li > a{
+  text-decoration: none;
+  color: royalblue;
+}
+
+header li > a:hover{
+  color: yellow;
+}
+
+section{
+  text-align: center;
+}
+
+section h1 {
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+.icon{
+  border-radius: 50%;
+  border: 5px solid pink;
+  box-shadow: 0 0 5px gray;
+}
+
+.tate{
+  transform: rotate(90deg);
+  margin:80px 0px;
+}
+
+.works{
+  width: 400;
+  margin: 60px auto;
+  border-bottom: 1px solid gray;
+}
+
+footer li > a:hover{
+
+  opacity: 0.6;
+}
+
+footer{
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  float: left;
+}
+
+footer li{
+  display: inline-block;
+}
+
+footer p{
+  color: lightgray;
+  text-align: right;
+}
+
+.current{
+  border-bottom: yellow 4px solid;
+}
